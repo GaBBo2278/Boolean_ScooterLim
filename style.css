@@ -1,0 +1,78 @@
+/* IMPOSTAZIONE DELLO SFONDO */
+body{
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* IMPOSTATO IL CONTENITORE GENERALE CON GRANDEZZE, COLORE E OPACITA' */
+.contenitore{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 80px;
+  width: 800px;
+  border-radius: 15px;
+  margin: auto;
+  color: white;
+}
+
+/* IMPOSTATO LA PARTE DELL'INSTESTAZIONE CON COLORE E ALLINEAMENTO*/
+.superiore{
+  text-align: center;
+  color: #00dd00;
+}
+
+/* IMPOSTATO IL LOGO CON GRANDEZZA E ALLINEAMENTO */
+.logo{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* IMPOSTAZIONE DELLA BARRA DELLE OPZIONE DEI MONOPATTINI */
+.navigazone{
+  border: solid #00dd00;
+  padding: 3px;
+  background-color: #00dd00;
+  text-align: center;
+}
+
+/* IMPOSTAZIONE DELLE CASELLE DI CHECK */
+.check{
+  width: 20px;
+  display: inline-block;
+  vertical-align: center;
+}
+
+/* IMPOSTAZIONE DEL TESTO A FIANCO DELLE CHECKBOX */
+.testo{
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  width: 200px;
+  display: inline-block;
+}
+
+/* IMPOSTAZIONE DELLA GRANDEZZA E DEL COLORE DELLA BARRA CON CARICA MEDIA  */
+.barra-med{
+  width: 40%;
+  border: solid #f5b453;
+  border-width: 15px;
+  border-radius: 5px;
+}
+
+/* IMPOSTAZIONE DELLA GRANDEZZA E DEL COLORE DELLA BARRA CON CARICA ALTA  */
+.barra-hig{
+  width: 60%;
+  border: solid #00dd00;
+  border-width: 15px;
+  border-radius: 5px;
+}
+
+/* IMPOSTAZIONE DELLA GRANDEZZA E DEL COLORE DELLA BARRA CON CARICA BASSA  */
+.barra-low{
+  width: 15%;
+  border: solid #bb4443;
+  border-width: 15px;
+  border-radius: 5px;
+}
